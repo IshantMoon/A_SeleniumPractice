@@ -17,8 +17,9 @@ public class F_LinkCount {
 		driver.findElement(By.name("Submit")).click();
 		
 		List<WebElement> tag=driver.findElements(By.xpath("//a[contains(text(),'Admin')]"));
+		
 		System.out.println(tag.size());
-
+		
 	}
 
 }
